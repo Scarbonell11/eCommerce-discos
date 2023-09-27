@@ -1,0 +1,123 @@
+[{
+  "id": 0,
+  "genero": "ROCK",
+  "nombre": "Master of puppets",
+  "descripcion": "By Metallica",
+  "foto": "./assets/metallica.jpg",
+  "precio": 500
+  
+},
+
+{
+  "id": 1,
+  "genero": "ROCK",
+  "nombre": "Mothership",
+  "descripcion": "By Led Zepellin",
+  "foto": "./assets/ledzepellin.jpg",
+  "precio": 500
+  
+},
+
+{
+  "id": 2,
+  "genero": "ROCK",
+  "nombre": "Hypnotize",
+  "descripcion": "By System of a down",
+  "foto": "./assets/soad.jpg",
+  "precio": 250
+  
+},
+
+{
+  "id": 3,
+  "genero": "POP",
+  "nombre": "This is it",
+  "descripcion": "By Michael Jackson",
+  "foto": "./assets/michaeljackson.jpg",
+  "precio": 250
+  
+},
+
+{
+  "id": 4,
+  "genero": "POP",
+  "nombre": "Anti",
+  "descripcion": "By Rihanna",
+  "foto": "./assets/rihanna.jpg",
+  "precio": 250
+  
+},
+
+{
+  "id": 5,
+  "genero": "POP",
+  "nombre": "Smile",
+  "descripcion": "By Katy Perry",
+  "foto": "./assets/katyperry.jpg",
+  "precio": 190
+  
+},
+
+{
+  "id": 6,
+  "genero": "SOUL",
+  "nombre": "Ray",
+  "descripcion": "By Ray Charles",
+  "foto": "./assets/raycharles.jpg",
+  "precio": 320
+  
+},
+
+{
+  "id": 7,
+  "genero": "SOUL",
+  "nombre": "Back to black",
+  "descripcion": "By Amy Winehouse",
+  "foto": "./assets/amywinehouse.jpg",
+  "precio": 320
+  
+},
+
+{
+  "id": 8,
+  "genero": "SOUL",
+  "nombre": "Hotter than july",
+  "descripcion": "By Stevie Wonder",
+  "foto": "./assets/steviewonder.jpg",
+  "precio": 320
+  
+},
+
+{
+  "id": 9,
+  "genero": "JAZZ",
+  "nombre": "Abbey is blue",
+  "descripcion": "By Abbey Lincoln",
+  "foto": "./assets/abbeylincoln.jpg",
+  "precio": 200
+  
+},
+
+{
+  "id": 10,
+  "genero": "JAZZ",
+  "nombre": "Louis under the stars",
+  "descripcion": "By Louis Armstrong",
+  "foto": "./assets/louisarmstrong.jpeg",
+  "precio": 200
+
+},
+
+{
+  "id": 11,
+  "genero": "JAZZ",
+  "nombre": "Dream of you",
+  "descripcion": "By Helen Merril",
+  "foto": "./assets/Helenmerriljpg.jpg",
+  "precio": 200
+  
+}
+
+]
+
+

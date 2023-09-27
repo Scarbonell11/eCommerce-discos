@@ -1,0 +1,188 @@
+body {
+  background-image: url(../assets/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+nav{
+    margin-bottom: 40px;
+}
+
+section {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: #cf0015;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.btn:hover {
+  background-color: #aa0415;
+}
+
+input {
+  width: 250px;
+  margin: 5px 5px;
+  border: none;
+  color: white;
+  background-color: #cf0015;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #cf0015;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button:hover {
+  background-color: #aa0415;
+}
+
+.pista img{
+  height: 30px; 
+  width: 30px;
+}
+
+input:hover {
+  background-color: #aa0415;
+}
+
+input:focus {
+  background-color: #aa0415;
+}
+
+#ocultarMostrar {
+  width: 80px;
+  height: 60px;
+  background-color: rgb(230, 227, 227);
+  color: black;
+}
+
+#ocultarMostrar:focus {
+  background-color: white;
+}
+
+#aPagar {
+  color: white;
+  text-align: center;
+}
+
+#check {
+  display: none;
+}
+
+.categorias {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg-body-tertiary {
+  box-shadow: rgb(0,0,0) 0px 20px 30px -10px;
+  background: rgb(156,0,16);
+background: linear-gradient(360deg, rgba(156,0,16,0.9290091036414566) 1%, rgba(24,28,22,1) 100%);
+}
+
+.card {
+  background-color: #edeae6;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.grid {
+  gap: 20px;
+}
+
+.card-img-top {
+  padding: 5px;
+  height: 250px;
+}
+
+
+#contenedorCds {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tituloGen {
+  
+  text-align: center;
+  font-family: Arial; 
+font-size: 50px; 
+COLOR: white; 
+text-shadow: 0px 0px 12px  #cf0015;
+	
+  
+}
+
+
+.carroPadre {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(29, 31, 31, 0.80);
+  border-radius: 10px;
+  width: 270px;
+  height: 550px;
+  z-index: 2;
+  position: fixed;
+  top: 310px;
+  right: 0;
+}
+
+#contenedorCompras {
+  background-color: white;
+
+  border-radius: 10px;
+  max-height: 500px;
+  overflow: scroll;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contenedorCompras .card {
+  margin: 5px;
+  padding: 5px;
+}
+
+.tituloCarrito {
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #cf0015, 0 0 80px #fff;
+}
+
+.botonesCarrito {
+  text-align: center;
+  margin: 10px;
+}
+
+.botonesCarrito button {
+  margin: 10px;
+}
+
+
+@media (width < 800px) {
+  .carroPadre{
+    height: 450px;
+    width: 180px;
+    top:100px;
+  }
+
+  #contenedorCompras{
+    max-height: 200px;
+  }
+}
+
